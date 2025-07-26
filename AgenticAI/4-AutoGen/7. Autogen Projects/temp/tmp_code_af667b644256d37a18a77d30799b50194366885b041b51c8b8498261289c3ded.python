@@ -1,0 +1,22 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the iris dataset from the csv file.
+iris_df = pd.read_csv('iris.csv')
+
+# Display the first few rows of the dataframe to understand its structure.
+print(iris_df.head())
+
+# Assuming that the species column is named 'species' (typical for iris datasets), we'll create a count plot.
+sns.countplot(data=iris_df, x='species')
+plt.title('Count of each type of flower in the Iris dataset')
+plt.xlabel('Species')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+# Show the plot
+plt.show()
+
+print("Graph of types of flowers has been displayed successfully.")

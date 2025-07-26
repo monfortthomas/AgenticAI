@@ -1,0 +1,24 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the data
+data = pd.read_csv('iris.csv')
+
+# Check the first few rows to understand the structure
+print(data.head())
+
+# Create a bar plot showing counts of each flower species
+sns.set(style="whitegrid")
+plt.figure(figsize=(10, 6))
+ax = sns.countplot(x='species', data=data, palette="viridis")
+
+# Add title and labels
+ax.set_title('Distribution of Iris Flower Species')
+ax.set_xlabel('Species')
+ax.set_ylabel('Count')
+
+# Save the plot as a PNG file
+plt.savefig('iris_species_distribution.png')
+
+print("PNG file of iris species distribution has been created and saved.")

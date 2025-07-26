@@ -1,0 +1,53 @@
+Section 1: React Fundamentals
+- What is React primarily used for?
+- Styling web pages
+- Building user interfaces ✅
+- Managing databases
+- Server-side routing
+- React is a…
+- Framework
+- Library ✅
+- Language
+- Plugin
+- Which command creates a new React app?
+- react create app
+- npx create-react-app myApp ✅
+- npm install react-app
+- react-new myApp
+- What is JSX?
+- JavaScript Extension
+- XML-based language
+- Syntax extension for JavaScript ✅
+- A server-side technology
+
+🧩 Section 2: Components & Props
+- Which of the following is a valid functional component?
+- function App() { return <h1>Hello</h1>; }
+- const App = () => <h1>Hello</h1>;
+- Both A & B ✅
+- Neither
+- Props in React are…
+- Mutable
+- Global variables
+- Immutable ✅
+- Functions
+- How are props accessed in class components?
+- this.props.name ✅
+- props.name
+- this.name
+- component.props.name
+🧩 Section 3: State & Hooks- Which hook is used to manage state in functional components?
+- useEffect()
+- useState() ✅
+- useProps()
+- useRef()
+- What does useState(0) return?
+- A number
+- An object
+- An array with initial state and setter ✅
+- Null
+- Which hook runs after every render?
+- useProps()
+- useEffect() ✅
+- useState()
+- useMemo()

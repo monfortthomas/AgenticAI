@@ -1,0 +1,28 @@
+Q1: Q:Which of the following is a valid functional component?
+A. function App() { return <h1>Hello</h1>; }
+B. const App = () => <h1>Hello</h1>;
+C. Both A & B
+D. Neither
+A1: option B
+
+Q2: Q:Props in React are…
+A. Mutable
+B. Global variables
+C. Immutable
+D. Functions
+A2: option B
+
+Q3: Q:How are props accessed in class components?
+A. this.props.name
+B. props.name
+C. this.name
+D. component.props.name
+A3: option d
+
+Q4: Q:Which hook is used to manage state in functional components?
+A. useEffect()
+B. useState()
+C. useProps()
+D. useRef()
+A4: option B
+

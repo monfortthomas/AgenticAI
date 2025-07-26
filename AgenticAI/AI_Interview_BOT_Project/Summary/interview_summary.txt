@@ -1,0 +1,6 @@
+Final Score: 2 out of 5
+
+Overall Feedback:
+The candidate demonstrated a basic understanding of React, functional components, and hooks, but had significant gaps in their knowledge of props and class components. They correctly identified useState() as the hook used for managing state and correctly explained the return value of useState(0). However, they incorrectly answered questions about how to properly define functional components and how props are accessed in class components. In addition, they incorrectly identified props as global variables. 
+
+Moving forward, the candidate should focus on improving their understanding of props and class components in React. This will be crucial for building more complex components and managing state more effectively. Despite these areas for improvement, the candidate showed promise in their understanding of hooks, which are a fundamental part of working with functional components in React.

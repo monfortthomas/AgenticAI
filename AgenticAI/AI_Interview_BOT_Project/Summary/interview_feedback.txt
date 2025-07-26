@@ -1,0 +1,40 @@
+Q1: Q:Which of the following is a valid functional component?
+A. function App() { return <h1>Hello</h1>; }
+B. const App = () => <h1>Hello</h1>;
+C. Both A & B
+D. Neither
+A1: option B
+Eval: Score: 5/10
+
+Explanation: The answer provided is technically correct, as option B does indeed represent a valid functional component in React. However, the answer is not fully correct, as option A is also a valid functional component. Therefore, the complete and correct answer should be option C, "Both A & B". The respondent has demonstrated some understanding of React functional components but missed the fact that there are different valid ways to define them.
+
+Q2: Q:Props in React are…
+A. Mutable
+B. Global variables
+C. Immutable
+D. Functions
+A2: option B
+Eval: Score: 0/10
+
+Explanation: The answer provided is incorrect. Props in React are not global variables, they are immutable. This means they cannot be changed once they are set. The correct answer would be option C. Therefore, the candidate receives a score of zero for this question.
+
+Q3: Q:How are props accessed in class components?
+A. this.props.name
+B. props.name
+C. this.name
+D. component.props.name
+A3: option d
+Eval: Score: 2/10
+
+Explanation: The correct answer to the question "How are props accessed in class components?" is option A: this.props.name. Option D: component.props.name is not the correct way to access props in class components in React. Therefore, the answer is incorrect and deserves a low score.
+
+Q4: Q:Which hook is used to manage state in functional components?
+A. useEffect()
+B. useState()
+C. useProps()
+D. useRef()
+A4: option B
+Eval: Score: 10/10
+
+Explanation: The answer is correct. useState() is indeed the correct React hook used to manage state in functional components. This shows that the interviewee has a good understanding of the fundamental functionalities of React hooks.
+

@@ -35,7 +35,7 @@ agent = AssistantAgent(
     model_client= model_client,
     system_message='You are a helpful assistant that can reverse string using reverse_string tool. Give the result with summary',
     tools=[reverse_tool],
-    reflect_on_tool_use=True
+    reflect_on_tool_use=False
 )
 
 async def main(): 
